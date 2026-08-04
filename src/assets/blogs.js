@@ -9,4 +9,9 @@ export const blogPosts = [
     body: "This is a placeholder second post showing the format. Just copy this object, change the title, body, and name fields, and it will appear as a new card on the blog page automatically.",
     name: "RNC Team",
   },
+  {
+    title: "heyyyy",
+    body: "arnav is gay",
+    name: "RNC Team",
+  },
 ];
