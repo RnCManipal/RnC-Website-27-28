@@ -10,6 +10,9 @@ import Aluminis from "./components/Team/Alumini";
 import Projects from "./components/Projects/Projects";
 import Home from "./components/Home/Home";
 import ScrollToTop from './utils/ScrollToTop';
+import ProjectDetail from "./components/Projects/ProjectDetail";
+import Blog from "./components/Blog/Blog";
+import BlogPost from "./components/Blog/BlogPost";
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/team/alumni" element={<Aluminis />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/:slug" element={<ProjectDetail />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
       </Routes>
 
       <Footer />

@@ -1,0 +1,124 @@
+.blog-board {
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  overflow-x: hidden;
+  padding: 1.8% 3%;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: start;
+  gap: 20px;
+}
+
+.blog-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 320px;
+  margin: 5px;
+  background: #ffffff;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 25px 20px;
+  transition: transform 0.3s ease;
+}
+
+.blog-member:hover {
+  transform: scale(1.05);
+}
+
+.blog-member h3 {
+  color: #0c1d27;
+  text-align: center;
+  font-size: 1.3em;
+  margin-bottom: 12px;
+}
+
+.blog-member p {
+  color: #333;
+  text-align: center;
+  font-size: 0.95em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.blog-member h5 {
+  color: #3ed6ab;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: auto;
+}
+
+@media (max-width: 1000px) {
+  .blog-grid {
+    grid-template-columns: repeat(2, minmax(160px, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .blog-grid {
+    grid-template-columns: repeat(1, minmax(160px, 1fr));
+  }
+}
+
+/* Blog card is now a link */
+a.blog-member {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.blog-read-more {
+  color: #3ed6ab;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Blog Post Detail Page */
+.blog-post-container {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 130px 20px 100px;
+  color: aliceblue;
+}
+
+.back-to-blog {
+  display: inline-block;
+  margin-bottom: 25px;
+  color: #3ed6ab;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.back-to-blog:hover {
+  text-decoration: underline;
+}
+
+.blog-post-container h1 {
+  color: #3ed6ab;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.blog-post-author {
+  color: #aaa;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.blog-post-body {
+  line-height: 1.8;
+  font-size: 17px;
+}
+
+@media (max-width: 600px) {
+  .blog-post-container h1 {
+    font-size: 28px;
+  }
+}

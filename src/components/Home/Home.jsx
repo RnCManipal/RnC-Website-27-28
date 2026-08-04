@@ -367,14 +367,14 @@ const Home = () => {
               <div className="contact_icon">
                 <i className="fa fa-envelope" aria-hidden="true"></i>
               </div>{" "}
-              <span>roboticsandcircuits.mit@gmail.com</span>
+              <span>Rnc.mit@manipal.edu</span>
               <div className="contact_icon">
                 <i className="fa fa-phone" aria-hidden="true"></i>
-                <span> +91-90592 90049</span>
+                <span> +91-76809 69597</span>
               </div>
               <div className="contact_icon">
                 <i className="fa fa-phone" aria-hidden="true"></i>
-                <span> +91-76800 11239</span>
+                <span> +91-98107 90403</span>
               </div>
             </div>
           </div>

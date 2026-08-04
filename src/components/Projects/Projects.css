@@ -171,3 +171,63 @@
   }
 }
 
+/* .project is now a <Link> (anchor tag), so reset default link styling */
+a.project {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Project Detail Page */
+.project-detail-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 130px 20px 100px;
+  color: aliceblue;
+}
+
+.back-to-projects {
+  display: inline-block;
+  margin-bottom: 25px;
+  color: #3ed6ab;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.back-to-projects:hover {
+  text-decoration: underline;
+}
+
+.project-detail-container h1 {
+  color: #3ed6ab;
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.project-detail-type {
+  color: #aaa;
+  font-size: 16px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.project-detail-media {
+  margin-bottom: 30px;
+}
+
+.project-detail-media img {
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.project-detail-info {
+  line-height: 1.8;
+  font-size: 17px;
+}
+
+@media (max-width: 600px) {
+  .project-detail-container h1 {
+    font-size: 28px;
+  }
+}

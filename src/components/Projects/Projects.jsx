@@ -1,17 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
+import { Link } from "react-router-dom";
 import "./Projects.css";
 import Header2 from "../Header/Header2";
 import { ongoingProjects, legacyProjects } from "../../assets/projects.js";
+import { slugify } from "../../utils/slugify.js";
 
 const Projects = () => {
-  const [selectedProject, setSelectedProject] = useState(null);
-  const handleReadMoreClick = (project) => {
-    setSelectedProject(project);
-  };
-  const closeModal = () => {
-    setSelectedProject(null);
-  };
-
   return (
     <div>
       <Header2 title="Project Gallery" subtitle="Welcome to our " />
@@ -23,7 +17,11 @@ const Projects = () => {
           </div>
           <div className="project-container hovercontain">
             {ongoingProjects.map((project, index) => (
-              <div className="project project2" key={index}>
+              <Link
+                to={`/projects/${slugify(project.projectTitle)}`}
+                className="project project2"
+                key={index}
+              >
                 <div className="project-image iframe-container">
                   {project.projectUrl ? (
                     <iframe
@@ -42,14 +40,9 @@ const Projects = () => {
                   <div className="project-type project-type2">
                     {project.projectType}
                   </div>
-                  <div
-                    className="button button2"
-                    onClick={() => handleReadMoreClick(project)}
-                  >
-                    Read more
-                  </div>
+                  <div className="button button2">View Project</div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
@@ -61,7 +54,11 @@ const Projects = () => {
           </div>
           <div className="project-container hovercontain">
             {legacyProjects.map((project, index) => (
-              <div className="project project2" key={index}>
+              <Link
+                to={`/projects/${slugify(project.projectTitle)}`}
+                className="project project2"
+                key={index}
+              >
                 <div className="project-image iframe-container">
                   {project.projectUrl ? (
                     <iframe
@@ -80,28 +77,12 @@ const Projects = () => {
                   <div className="project-type project-type2">
                     {project.projectType}
                   </div>
-                  <div
-                    className="button button2"
-                    onClick={() => handleReadMoreClick(project)}
-                  >
-                    Read more
-                  </div>
+                  <div className="button button2">View Project</div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
-        {selectedProject && (
-          <div className="modal-overlay" onClick={closeModal}>
-            <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-              <h2>{selectedProject.projectTitle}</h2>
-              <p>{selectedProject.info}</p>
-              <button className="button-close" onClick={closeModal}>
-                Close
-              </button>
-            </div>
-          </div>
-        )}
       </div>
     </div>
   );

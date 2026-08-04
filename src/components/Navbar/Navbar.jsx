@@ -125,6 +125,15 @@ const Navbar = () => {
           </li>
           <li>
             <Link
+              to="/blog"
+              className={location.pathname === "/blog" ? "active" : ""}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Blog
+            </Link>
+          </li>
+          <li>
+            <Link
               to={{ pathname: "/", hash: "#contact" }}
               className={location.hash === "#contact" ? "active" : ""}
               onClick={() => setIsMenuOpen(false)}
