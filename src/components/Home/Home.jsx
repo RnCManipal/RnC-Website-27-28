@@ -240,23 +240,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="vedanthbox">
-        <div className="vedanth-content">
-          <div className="vedanth-heading">
-            <h1>VEDANTH</h1>
-          </div>
-          <div className="row">
-            <div className="text">
-              Vedanth is the annual <span>technical exhibition</span> organised
-              by RNC during TechTatva at MIT, Manipal. It is a platform for
-              young minds to showcase their innovative ideas.
-            </div>
-            <div className="button2">
-              <a href="/vedanth">Know More!</a>
-            </div>
-          </div>
-        </div>
-      </div>
       <div className="activity" id="ongoing">
         <div className="heading">
           <h1>Ongoing Activities</h1>
@@ -278,7 +261,6 @@ const Home = () => {
           <div className="heading2">
             <h1>Contact Us</h1>
           </div>
-
           <div className="contact-content ">
             <p className="contact-desc">
               Drop us a message! We'd Love to get in touch.
@@ -286,80 +268,13 @@ const Home = () => {
             <span>&#9679; &#9679; &#9679;</span>
           </div>
           <div className="contact-container">
-            <div className="left-contact">
-              <form id="contactForm" onSubmit={handleSubmit}>
-                <input
-                  className="inputbox fullname"
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Your Name"
-                  required
-                  data-error="Name is required."
-                  // value={form.name}
-                  onChange={handleChange}
-                />
-                <div className="help-block with-errors"></div>
-
-                <input
-                  className="inputbox email"
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Email Address"
-                  required
-                  data-error="Email is required."
-                  // value={form.email}
-                  onChange={handleChange}
-                />
-                <div className="help-block with-errors"></div>
-
-                <input
-                  className="inputbox subject"
-                  type="text"
-                  id="subject"
-                  name="subject"
-                  placeholder="Subject"
-                  // value={form.subject}
-                  onChange={handleChange}
-                />
-
-                <textarea
-                  className="inputbox message"
-                  style={{ resize: "none" }}
-                  id="message"
-                  name="message"
-                  rows="4"
-                  placeholder="Message"
-                  required
-                  data-error="Message is required."
-                  // value={form.message}
-                  onChange={handleChange}
-                ></textarea>
-                <div className="help-block with-errors"></div>
-
-                <button
-                  className="send-button"
-                  data-aos="zoom-in"
-                  type="submit"
-                >
-                  Send <i className="fas fa-paper-plane" aria-hidden="true"></i>
-                </button>
-
-                {formSuccess && (
-                  <div className="alert alert-success success-message">
-                    Form submitted successfully.
-                  </div>
-                )}
-              </form>
-            </div>
             <div className="right-contact">
               <div className="contact_icon">
                 <i className="fa fa-map-marker" aria-hidden="true"></i>
               </div>
               <span>
                 {" "}
-                Workshop No.5, MAHE Workshops,
+                Workshop No.16B, Techshila,
                 <p> Manipal Institute of Technology,</p>
                 <p>Eshwar Nagar, Manipal,</p>
                 Karnataka-576104

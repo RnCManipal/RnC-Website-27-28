@@ -73,15 +73,6 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/vedanth"
-              className={location.pathname === "/vedanth" ? "active" : ""}
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Vedanth
-            </Link>
-          </li>
-          <li>
-            <Link
               to="/team"
               className={location.pathname === "/team" ? "active" : ""}
               onClick={() => setIsMenuOpen(false)}

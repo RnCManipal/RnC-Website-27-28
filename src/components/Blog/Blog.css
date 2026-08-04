@@ -122,3 +122,33 @@ a.blog-member {
     font-size: 28px;
   }
 }
+
+/* Search bar */
+.blog-search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.blog-search-bar input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 18px;
+  border: 2px solid #3ed6ab;
+  border-radius: 25px;
+  font-size: 15px;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.blog-search-bar input:focus {
+  box-shadow: 0 0 8px rgba(62, 214, 171, 0.5);
+}
+
+.blog-no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: #666;
+  font-size: 16px;
+  padding: 30px 0;
+}
