@@ -23,7 +23,7 @@ const Footer = () => {
 </div>
 
     </div>
-      <p>&copy; 2024 Robotics and Circuits</p>
+      <p>&copy; 2026 Robotics and Circuits</p>
 
       <div className="mahe">
     <p>supported by</p><img src={assets.mahe} />
