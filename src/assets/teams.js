@@ -99,29 +99,36 @@ const teamMembers = [
    firstName: "Neha",
     lastName: "Reddy Yampati",
     position: "Coding Head",
-    imageUrl: OjasviImage,
+    imageUrl: null,
     linkedIn: "https://www.linkedin.com/in/yampati-neha-reddy-57586b341?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   },
   {
     firstName: "Kartikey",
     lastName: "Rakesh Rathod",
     position: "Mechanical Head",
-    imageUrl: KartikeyImage,
+    imageUrl: null,
     linkedIn: "https://www.linkedin.com/in/kartikey-rakesh-rathod-403724284/",
   },
   {
     firstName: "Adarsh",
     lastName: "P Nayak",
     position: "Simulations Head",
-    imageUrl: ShreyanshImage,
+    imageUrl: null,
     linkedIn: "https://www.linkedin.com/in/adarsh-p-nayak?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   },
   {
     firstName: "Aryan",
     lastName: "Harajani",
     position: "Research Head",
-    imageUrl: SharaddhaImage,
+    imageUrl: null,
     linkedIn: "https://www.linkedin.com/in/aryan-harjani-41a49134a?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+  },
+  {
+    firstName: "Joslyn",
+    lastName: "George",
+    position: "IP & Patent Head",
+    imageUrl: null,
+    linkedIn: "https://www.linkedin.com/in/joslyn-sajan-george-2b444a2b3/",
   },
   {
     firstName: "Aashvi",
@@ -135,18 +142,22 @@ const teamMembers = [
 
 
   const codingTeam = [
-  "Ojasvi Tomar", "Shashank Rao", "Dipen B", "Abhyuday Gandhi", "Yampati Neha Reddy", "Aashvi Budia","Adarsh P Nayak " 
+  "Dipen B", "Yampati Neha Reddy", "Aashvi Budia", "Adarsh P Nayak ", "Krittika Chakraborty", "Pradyumna M", "Bhavin A"
 ];
 
   const electronicsTeam = [
-  "Aayushi Gupta", "Shreyansh Shrivastava","Sharaddha Nair",  "Arnav Varshney","Ananth Garg","Shreyas Arya Jaiswal","Shreeya Das"
+  "Arnav Varshney", "Parnika Masoan", "Umang Khetan"
+];
+
+  const researchTeam = [
+  "Aryan Harajani", "Joslyn George"
 ];
 
   const mechanicalTeam = [
-  "Kartikey Rakesh Rathod", "S Shankar Shrivas", "Samagya Sharma","Gopal D Baindur","Swaroop Sajjan","Kriday Sharaff"
+  "Arnav Varshney", "Dipen B"
 ];
 
-  const managementTeam = [ "Samagya Sharma","Shashank Rao","Aayushi Gupta"];
+  const managementTeam = [ "Aashvi Budia", "Sanvi Kulkarni", "Mayank Sukeerti", "Priyatham Krishna" ];
 
 
  const BoardMembersByYear = {
@@ -522,5 +533,5 @@ const teamMembers = [
 
 
 
-export {teamMembers,codingTeam,electronicsTeam,mechanicalTeam,managementTeam,BoardMembersByYear};
+export {teamMembers,codingTeam,researchTeam,electronicsTeam,mechanicalTeam,managementTeam,BoardMembersByYear};
 

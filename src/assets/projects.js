@@ -69,6 +69,11 @@ import guitarPlayingBot from "./images/projects/img47.png";
 import smartWatch from "./images/projects/img46.png";
 import eBai from "./images/projects/img45.jpg";
 import arduinoscope from "./images/projects/img44.png";
+import lifi from "./images/projects/lifi.jpg";
+import bingo from "./images/projects/bingo.jpg";
+import bci from "./images/projects/bci.jpg";
+import arm from "./images/projects/arm.jpg";
+import falcon from "./images/projects/falcon.jpg";
 
 
 const projectassets = {
@@ -143,7 +148,12 @@ const projectassets = {
   smartWatch,
   eBai,
   arduinoscope,
- 
+  lifi,
+  bingo,
+  bci,
+  arm,
+  falcon,
+
 
 };
 // Ongoing Projects (Current/Active)
@@ -153,23 +163,63 @@ const ongoingProjects = [
     projectUrl: "https://www.youtube.com/embed/bgFyJudC_60?si=8IYn3bPeO4vSSSti",
     projectType: "Research Project",
     info: "The Multipurpose Universal Chassis (M.U.C.) is an autonomous ground vehicle, built for industrial applications. The current model supports a payload of 50Kg and can be further modified for different payload capacities too. M.U.C. features autonomous navigation using SLAM and also offers a manipulation system for picking and placing of objects. M.U.C. is designed to automate warehouses and minimize overall manual monitoring and human intervention.",
-    members: "Anirudh Agarwal, Gnana sai Pendyala, Akshay Prabhu, Aman Agrawal",
+    members: "Yampati Neha Reddy, Adarsh P Nayak, Arnav Varshney, Parnika Masoan",
     link: "#",
   },
   {
     projectTitle: "Micro-Mouse",
     imageUrl: projectassets.microMouse,
-    projectType: "Technoxian Bot",
-    info: "An autonomous robot that navigates through a maze to find the quickest route."
+    projectType: "Competetion Bot",
+    info: "An autonomous robot that navigates through a maze to find the quickest route.",
+    members: "Arnav Varshney, Krittika Chakraborty, Umang Khetan",
   },
   {
     projectTitle: "Line Follower Bot",
     imageUrl: projectassets.lineFollower,
-    projectType: "Technoxian Bot",
-    info: "A robot that follows a predetermined path using sensors to detect lines on the ground."
+    projectType: "Competetion Bot",
+    info: "A robot that follows a predetermined path using sensors to detect lines on the ground.",
+    members: "Yampati Neha Reddy, Pradyumna M, Parnika Masoan",
+  },
+  {
+    projectTitle: "FALCON",
+    imageUrl: projectassets.falcon,
+    projectType: "Research Project",
+    info: "FALCON is a compact hybrid UAV that seamlessly switches between flight and ground movement using a worm-gear transformation system.\nDesigned for search, rescue, inspection, and surveillance, FALCON exemplifies innovation and versatility in hybrid robotics.\nUtility provisional patent accepted on 27th October 2025",
+    members: "",
+  },
+  {
+    projectTitle: "ARM",
+    imageUrl: projectassets.arm,
+    projectType: "Research Project",
+    info: "",
+    members: "",
   }
 ];
+//research Projects (Current/Active)
+const researchProjects = [
+  {
+    projectTitle: "Li-Fi",
+    imageUrl: projectassets.lifi,
+    projectType: "Research Project",
+    info: "A robot that follows a predetermined path using sensors to detect lines on the ground.",
+    members: "Dipen B, Bhavin A, Umang Khetan",
+  },
+  {
+    projectTitle: "BCI",
+    imageUrl: projectassets.bci,
+    projectType: "Research Project",
+    info: "",
+    members: "",
+  },
+  {
+    projectTitle: "BIN-GO",
+    imageUrl: projectassets.bingo,
+    projectType: "Research Project",
+    info: "Multi-bin communication with IoT-based waste bins; explored path-planning algorithms and LoRaWAN reliability.\nSome changes implemented:\nSolar powered\nMulti-bin Integration\nUtility provisional Patent processed and accepted on  May 27th 2025.",
+    members: "Bhavin A",
+  }
 
+];
 // Legacy Projects (Historical/Completed)
 const legacyProjects = [
   {
@@ -519,4 +569,4 @@ const legacyProjects = [
     }
     
   ];
-export {projectassets, ongoingProjects, legacyProjects};
+export {projectassets, ongoingProjects, researchProjects, legacyProjects};

@@ -3,6 +3,7 @@ import "./Team.css";
 import {
   teamMembers,
   codingTeam,
+  researchTeam,
   electronicsTeam,
   mechanicalTeam,
   managementTeam,
@@ -79,6 +80,14 @@ const Team = () => {
               <h2>Electronics</h2>
               <ul>
                 {electronicsTeam.map((name, index) => (
+                  <li key={index}>{name}</li>
+                ))}
+              </ul>
+            </div>
+            <div className="team-box">
+              <h2>Research</h2>
+              <ul>
+                {researchTeam.map((name, index) => (
                   <li key={index}>{name}</li>
                 ))}
               </ul>
