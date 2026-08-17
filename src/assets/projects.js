@@ -182,14 +182,12 @@ const ongoingProjects = [
   },
   {
     projectTitle: "FALCON",
-    imageUrl: projectassets.falcon,
     projectType: "Research Project",
     info: "FALCON is a compact hybrid UAV that seamlessly switches between flight and ground movement using a worm-gear transformation system.\nDesigned for search, rescue, inspection, and surveillance, FALCON exemplifies innovation and versatility in hybrid robotics.\nUtility provisional patent accepted on 27th October 2025",
     members: "",
   },
   {
     projectTitle: "ARM",
-    imageUrl: projectassets.arm,
     projectType: "Research Project",
     info: "",
     members: "",
@@ -199,21 +197,18 @@ const ongoingProjects = [
 const researchProjects = [
   {
     projectTitle: "Li-Fi",
-    imageUrl: projectassets.lifi,
     projectType: "Research Project",
     info: "A robot that follows a predetermined path using sensors to detect lines on the ground.",
     members: "Dipen B, Bhavin A, Umang Khetan",
   },
   {
     projectTitle: "BCI",
-    imageUrl: projectassets.bci,
     projectType: "Research Project",
     info: "",
     members: "",
   },
   {
     projectTitle: "BIN-GO",
-    imageUrl: projectassets.bingo,
     projectType: "Research Project",
     info: "Multi-bin communication with IoT-based waste bins; explored path-planning algorithms and LoRaWAN reliability.\nSome changes implemented:\nSolar powered\nMulti-bin Integration\nUtility provisional Patent processed and accepted on  May 27th 2025.",
     members: "Bhavin A",
