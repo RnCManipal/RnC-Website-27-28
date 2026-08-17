@@ -104,7 +104,14 @@
 }
 
 .board-member {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: start;
+    gap: 30px;
+    padding: 30px;
 }
+
 .advisory-board .member {
   margin-bottom: 35px;
 }
