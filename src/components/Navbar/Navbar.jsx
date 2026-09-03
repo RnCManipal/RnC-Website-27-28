@@ -11,6 +11,11 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleHomeClick = () => {
+    setIsMenuOpen(false);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   useEffect(() => {
     if (location.hash) {
       const sectionId = location.hash.replace("#", "");
@@ -24,7 +29,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbar-left">
-        <Link to="/" onClick={() => setIsMenuOpen(false)}>
+        <Link to="/" onClick={handleHomeClick}>
           <img src={assets.logo} alt="Logo" />
         </Link>
 
@@ -39,7 +44,7 @@ const Navbar = () => {
             <Link
               to="/"
               className={location.pathname === "/" && !location.hash ? "active" : ""}
-              onClick={() => setIsMenuOpen(false)}
+              onClick={handleHomeClick}
             >
               Home
             </Link>

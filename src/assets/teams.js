@@ -10,9 +10,13 @@ import PurbashaImage from "./images/team/2023-24/purbasha.jpg";
 import AvyakthaImage from "./images/team/2023-24/avyaktha.jpg";
 
 // 2027 Board Images
-import DipenImage from './images/team/2026-27/Dipen.jpeg';
-import ArnavImage from './images/team/2026-27/Arnav.jpeg';
-import AashviImage from './images/team/2026-27/Aashvi.jpeg';
+import DipenImage from './images/team/2026-27/dipen.jpg';
+import ArnavImage from './images/team/2026-27/arnav.jpg';
+import AashviImage from './images/team/2026-27/aashvi.jpg';
+import AryanImage from './images/team/2026-27/aryan.jpg';
+import NehaImage from './images/team/2026-27/neha.jpg';
+import JoslynImage from './images/team/2026-27/joslyn.jpg';
+import AdarshImage from './images/team/2026-27/adarsh.jpeg';
 
 // 2026 Board Images
 import AayushiImage from './images/team/2025-26/aayushi.png';
@@ -99,35 +103,35 @@ const teamMembers = [
    firstName: "Neha",
     lastName: "Reddy Yampati",
     position: "Coding Head",
-    imageUrl: null,
+    imageUrl: NehaImage,
     linkedIn: "https://www.linkedin.com/in/yampati-neha-reddy-57586b341?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   },
   {
     firstName: "Kartikey",
     lastName: "Rakesh Rathod",
     position: "Mechanical Head",
-    imageUrl: null,
+    imageUrl: KartikeyImage,
     linkedIn: "https://www.linkedin.com/in/kartikey-rakesh-rathod-403724284/",
   },
   {
     firstName: "Adarsh",
     lastName: "P Nayak",
     position: "Simulations Head",
-    imageUrl: null,
+    imageUrl: AdarshImage,
     linkedIn: "https://www.linkedin.com/in/adarsh-p-nayak?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   },
   {
     firstName: "Aryan",
     lastName: "Harajani",
     position: "Research Head",
-    imageUrl: null,
+    imageUrl: AryanImage,
     linkedIn: "https://www.linkedin.com/in/aryan-harjani-41a49134a?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   },
   {
     firstName: "Joslyn",
     lastName: "George",
     position: "IP & Patent Head",
-    imageUrl: null,
+    imageUrl: JoslynImage,
     linkedIn: "https://www.linkedin.com/in/joslyn-sajan-george-2b444a2b3/",
   },
   {
@@ -142,11 +146,11 @@ const teamMembers = [
 
 
   const codingTeam = [
-  "Dipen B", "Yampati Neha Reddy", "Aashvi Budia", "Adarsh P Nayak ", "Krittika Chakraborty", "Pradyumna M", "Bhavin A"
+  "Dipen B", "Yampati Neha Reddy", "Aashvi Budia", "Adarsh P Nayak ", "Krittika Chakraborty", "Pradyumna M", "Bhavin A", "Aditi Bakshi", "Tanay Daruka"
 ];
 
   const electronicsTeam = [
-  "Arnav Varshney", "Parnika Masoan", "Umang Khetan"
+  "Arnav Varshney", "Parnika Masoan", "Umang Khetan", "Joseph Paul", "Niya Chhabra", "Madhurima Rout", "Pratham Jiten Shah", "Nihal Viswa G B", "Aryan Tandon"
 ];
 
   const researchTeam = [
@@ -157,7 +161,7 @@ const teamMembers = [
   "Arnav Varshney", "Dipen B"
 ];
 
-  const managementTeam = [ "Aashvi Budia", "Sanvi Kulkarni", "Mayank Sukeerti", "Priyatham Krishna" ];
+  const managementTeam = [ "Aashvi Budia", "Mayank Sukeerti", "Priyatham Krishna" ];
 
 
  const BoardMembersByYear = {

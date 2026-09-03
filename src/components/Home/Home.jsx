@@ -247,11 +247,11 @@ const Home = () => {
         <div className="activity-content">
           <div className="activity-box">
             <ul>
-              <li>BITS Quark 2024</li>
-              <li>Technoxian - World Robotics Championship 2024 </li>
-              <li>Robocup 2024</li>
-              <li>Kavach 2024</li>
-              <li>Smart India Hackathon 2023</li>
+              <li>Technoxian - World Robotics Championship 2026</li>
+              <li>e-Yantra Robotics Competition </li>
+              <li>Robofest 6.0</li>
+              <li>Smart India Hackathon 2026</li>
+              <li>Multiple Research Projects going on</li>
             </ul>
           </div>
         </div>
@@ -282,7 +282,7 @@ const Home = () => {
               <div className="contact_icon">
                 <i className="fa fa-envelope" aria-hidden="true"></i>
               </div>{" "}
-              <span>Rnc.mit@manipal.edu</span>
+              <span>rnc.mit@manipal.edu</span>
               <div className="contact_icon">
                 <i className="fa fa-phone" aria-hidden="true"></i>
                 <span> +91-76809 69597</span>
